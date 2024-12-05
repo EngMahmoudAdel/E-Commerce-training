@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.navbar{
+    background-color:#017DBF !important;
+}
+
+*{
+    font-family: 'cairo','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-item img{
+    height:100vh;
+}
+
+.carousel-caption{
+
+    background-color: rgba(151, 194, 724,0.4);
+    border-radius:20px;
+    bottom:6rem;
+
+}
+
+.carousel-caption:hover{
+
+    background-color: rgba(48,97,232,0.4);
+    transition:ease 0.7s;
+}
+
+
+.carousel-indicators button{
+
+    height:20px !important;
+    width:20px !important;
+    border-radius:50% !important;
+    background-color:#017DBF !important;
+}
+
+.carousel-indicators{
+    bottom:2.5rem;
+
+
+}
+.carousel-item {
+    font-size:30px;
+  
+
+
+}
+.carousel-indicators :hover{
+    background-color:blueviolet !important;
+}
+
+
+.offcanva-img{
+
+    width:200 px !important;
+    height:300 px !important;
+
+}
+
+.offcanva-img:hover{
+    transform: skew(-5deg);
+    transition:ease all 1s;
+}
+
+.offcanva-price{
+    font-weight: bold;
+    font-size:large;
+    
+}
+
+
+
+.text-header{
+
+    border-bottom:crimson solid 3px;
+}
+
+
+.card img:hover{
+    transform:scale(1.2);
+    transition:ease all 1s;
+}
+
+.card{
+
+    overflow:hidden;
+}
+
+.card img{
+    height:300px;
+    width:100%;
+}
+
+
+.blue{
+    color:#017DBF !important;
+    font-weight:bold;
+}
+
+.blueCrimson{
+    color: #017DBF !important;
+}
+.blueCrimson :hover{
+    color:crimson;
+    transition: all ease 0.5s;
+    cursor:pointer;
+}
+
+
+.half2{
+    margin-top: 45px;
+}
+
+
+.contact{
+    height:60vh;
+    background-image:url('../img/3.jpg');
+    background-attachment: fixed;
+}
